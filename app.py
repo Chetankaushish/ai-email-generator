@@ -49,7 +49,7 @@ def generate_email(topic, tone):
     )
 
     llm = ChatOpenAI(
-        model= "deepseek/deepseek-r1:free"",
+        model= "deepseek/deepseek-r1:free",
 
         base_url="https://openrouter.ai/api/v1",
 
