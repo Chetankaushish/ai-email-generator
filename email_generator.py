@@ -16,7 +16,7 @@ def generate_email(topic, tone):
     )
 
     llm = ChatOpenAI(
-        model="deepseek/deepseek-chat-v3-0324:free",
+        model="openai/gpt-3.5-turbo",
 
         base_url="https://openrouter.ai/api/v1",
 
